@@ -104,9 +104,13 @@ Contributions to enhance physical fidelity (e.g., adding 6-DoF rigid body dynami
 This project is licensed under the MIT License - see the LICENSE file for details.
 👤 Author
 
+Developed by Diogo Fernandes
+
+    GitHub: @DiogoFernandes-2008015
+
 ## 📂 Repository Structure
 
---text 
+```text
 ├── Python/
 │   ├── PSO.py                          # Generic Vectorized PSO algorithm (tested on Rosenbrock)
 │   ├── ext_bal_3dof.py                 # Pure 3-DoF simulation with adaptive time steps (Diffrax)
@@ -120,6 +124,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 │   └── planejador_missao_gui.cpp       # Native Windows (Win32) GUI desktop application for mission planning
 └── README.md
 
-Developed by Diogo Fernandes
-
-    GitHub: @DiogoFernandes-2008015
