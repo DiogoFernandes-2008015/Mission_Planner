@@ -106,7 +106,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📂 Repository Structure
 
-
+--text 
 ├── Python/
 │   ├── PSO.py                          # Generic Vectorized PSO algorithm (tested on Rosenbrock)
 │   ├── ext_bal_3dof.py                 # Pure 3-DoF simulation with adaptive time steps (Diffrax)
