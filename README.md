@@ -22,21 +22,6 @@ Implementations are provided in both highly vectorized/differentiable **Python (
 
 ---
 
-## 📂 Repository Structure
-
-```text
-├── Python/
-│   ├── PSO.py                          # Generic Vectorized PSO algorithm (tested on Rosenbrock)
-│   ├── ext_bal_3dof.py                 # Pure 3-DoF simulation with adaptive time steps (Diffrax)
-│   ├── ext_bal_3dof_fun.py             # Functional version of the ballistic solver for optimization
-│   ├── calc_imp.py                     # PSO + Ballistic solver integration without wind effects
-│   └── calc_imp_wind.py                # Complete PSO + Ballistic solver integrating atmospheric wind
-│
-├── C++/
-│   ├── calc_imp_wind.cpp               # High-performance C++ CLI implementation of PSO + Ballistics
-│   ├── planejador_missao_inter_prompt.cpp # Interactive Command-Line Interface for user target input
-│   └── planejador_missao_gui.cpp       # Native Windows (Win32) GUI desktop application for mission planning
-└── README.md
 
 Mathematical & Physical Models
 1. Equations of Motion (3-DoF)
@@ -118,6 +103,22 @@ Contributions to enhance physical fidelity (e.g., adding 6-DoF rigid body dynami
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 👤 Author
+
+## 📂 Repository Structure
+
+
+├── Python/
+│   ├── PSO.py                          # Generic Vectorized PSO algorithm (tested on Rosenbrock)
+│   ├── ext_bal_3dof.py                 # Pure 3-DoF simulation with adaptive time steps (Diffrax)
+│   ├── ext_bal_3dof_fun.py             # Functional version of the ballistic solver for optimization
+│   ├── calc_imp.py                     # PSO + Ballistic solver integration without wind effects
+│   └── calc_imp_wind.py                # Complete PSO + Ballistic solver integrating atmospheric wind
+│
+├── C++/
+│   ├── calc_imp_wind.cpp               # High-performance C++ CLI implementation of PSO + Ballistics
+│   ├── planejador_missao_inter_prompt.cpp # Interactive Command-Line Interface for user target input
+│   └── planejador_missao_gui.cpp       # Native Windows (Win32) GUI desktop application for mission planning
+└── README.md
 
 Developed by Diogo Fernandes
 
