@@ -108,19 +108,3 @@ Developed by Diogo Fernandes
 
     GitHub: @DiogoFernandes-2008015
 
-## 📂 Repository Structure
-
-```text
-├── Python/
-│   ├── PSO.py                          # Generic Vectorized PSO algorithm (tested on Rosenbrock)
-│   ├── ext_bal_3dof.py                 # Pure 3-DoF simulation with adaptive time steps (Diffrax)
-│   ├── ext_bal_3dof_fun.py             # Functional version of the ballistic solver for optimization
-│   ├── calc_imp.py                     # PSO + Ballistic solver integration without wind effects
-│   └── calc_imp_wind.py                # Complete PSO + Ballistic solver integrating atmospheric wind
-│
-├── C++/
-│   ├── calc_imp_wind.cpp               # High-performance C++ CLI implementation of PSO + Ballistics
-│   ├── planejador_missao_inter_prompt.cpp # Interactive Command-Line Interface for user target input
-│   └── planejador_missao_gui.cpp       # Native Windows (Win32) GUI desktop application for mission planning
-└── README.md
-
